@@ -25,7 +25,6 @@ function getPeople (name, done) {
   });
 }
 function showPeople (rows) {
-console.log(rows);
   rows.forEach(function(people) {
   console.log(`found ${people.id} person by the name ${myArgs} \n - ${people.id}: ${people.first_name} ${people.last_name} born in ${people.birthdate} `);
   });
