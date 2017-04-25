@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/raz346/Connecting-from-JavaScript#readme",
   "dependencies": {
+    "knex": "^0.12.9",
     "pg": "^6.1.5"
   }
 }
