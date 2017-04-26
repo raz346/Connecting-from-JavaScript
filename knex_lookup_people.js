@@ -15,7 +15,7 @@ var knex = require('knex')({
 function getPeople (name, done) {
   knex.select("*")
   .from("famous_people")
-  .where("first_name", "=", name )
+  .where("first_name", name )
   .then(function(rows){
     done(rows);
   });
